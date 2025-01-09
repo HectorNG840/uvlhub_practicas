@@ -33,6 +33,7 @@ def test_list_empty_notepad_get(test_client):
     """
     Tests access to the empty notepad list via GET request.
     """
+    #Prueba
     login_response = login(test_client, "user1@example.com", "1234")
     assert login_response.status_code == 200, "Login was unsuccessful."
 
